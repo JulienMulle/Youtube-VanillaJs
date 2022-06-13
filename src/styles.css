@@ -1,0 +1,68 @@
+.cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#f9f9f9 ;
+  }
+
+.container {
+  margin: 5px;
+  width: 20%;
+}
+.container:hover{
+  transform: scale(1.10);
+}
+
+.imgContainer{
+  max-width: 100%;
+}
+
+.img{
+  width: 100%;
+}
+.profilContainer{
+  display: flex;
+}
+
+.profilContainer-img{
+
+}
+.profilContainerImg{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  margin-left: 3px;
+  margin-top: 7px;
+}
+
+.profilContainer-account{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 5px;
+}
+
+.profilContainerTitle{
+  margin:3px;
+}
+
+.profilContainerName{
+  margin: 1px;
+}
+.profilContainerView{
+  margin: 1px;
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerContainerInput{
+  height: 20px;
+}
